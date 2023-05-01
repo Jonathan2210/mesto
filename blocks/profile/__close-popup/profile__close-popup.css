@@ -1,0 +1,21 @@
+.profile__close-popup {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    display: block;
+    left: 438px;
+    top: -38px;
+}
+
+.profile__close-popup:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 900px) {
+    .profile__close-popup {
+        width: 20px;
+        height: 20px;
+        top: -36px;
+        left: 262px;
+    }
+}

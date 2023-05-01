@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Mesto</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="images/logo.svg">
+        </header>
+
+        <main class="main">
+
+            <div class="profile">
+                <img class="profile__avatar" src="images/Avatar.png" alt="Аватарка">
+                <div class="profile__info">
+                    <h1 class="profile__info-name">Жак-Ив Кусто</h1>
+                    <p class="profile__info-about">Исследователь океана</p>
+                    
+                    <a class="profile__open-popup"  href="#">
+                        <img class="profile__edit-button" src="images/Edit Button.svg">
+                    </a>
+                </div>    
+
+                    
+
+                <div class="profile__edit-popup">
+
+                    <div class="profile__popup-content">
+                        
+                        <a class="profile__close-popup" href="#">
+                            <img class="profile__button-close" src="images/Close Icon.svg">
+                        </a>
+
+                        <p class="profile__popup-header">Редактировать профиль</p>
+                        <form class="profile__popup-name" autocomplete="off">
+                            <input type="text" class="profile__popup-text profile__input-name">
+                        </form>
+                        <form class="profile__popup-name" autocomplete="off">
+                            <input type="text" class="profile__popup-text profile__input-info">
+                        </form>
+                        
+                        <a class="profile__popup-sumbit"  href="#">
+                            <p class="profile__sumbit-text">Сохранить</p>
+                        </a>    
+                    </div>
+
+                </div>
+
+                <a class="profile__add-button" href="#">
+                    <img class="profile__button-cross" src="images/Add Button.svg">
+                </a>
+                
+            </div>
+
+            <ul class="elements">
+                <li class="elements__element">
+                    <img class="elements__element-image" src="images/karachevsk.jpg" alt="Карачаевск">
+                    <h2 class="elements__element-title">Карачаевск</h2>
+                    <a class="elements__element-icon" href="#">
+                        <img class="elements__icon" src="images/Group1.png">
+                    </a>
+                    
+                </li>
+
+                <li class="elements__element">
+                    <img class="elements__element-image" src="images/elbrus.jpg" alt="Эльбрус">
+                    <h2 class="elements__element-title">Гора Эльбрус</h2>
+                    <a class="elements__element-icon" href="#">
+                        <img class="elements__icon" src="images/Group1.png">
+                    </a>
+                </li>
+
+                <li class="elements__element">
+                    <img class="elements__element-image" src="images/dombai.jpg" alt="Домбай">
+                    <h2 class="elements__element-title">Домбай</h2>
+                    <a class="elements__element-icon" href="#">
+                        <img class="elements__icon" src="images/Group1.png">
+                    </a>
+                </li>
+
+                <li class="elements__element">
+                    <img class="elements__element-image" src="images/elbrus.jpg" alt="Эльбрус">
+                    <h2 class="elements__element-title">Гора Эльбрус</h2>
+                    <a class="elements__element-icon" href="#">
+                        <img class="elements__icon" src="images/Group1.png">
+                    </a>
+                </li>
+
+                <li class="elements__element">
+                    <img class="elements__element-image" src="images/dombai.jpg" alt="Домбай">
+                    <h2 class="elements__element-title">Домбай</h2>
+                    <a class="elements__element-icon" href="#">
+                        <img class="elements__icon" src="images/Group1.png">
+                    </a>
+                </li>
+
+                <li class="elements__element">
+                    <img class="elements__element-image" src="images/karachevsk.jpg" alt="Карачевск">
+                    <h2 class="elements__element-title">Карачаево-Черкесия</h2>
+                    <a class="elements__element-icon" href="#">
+                        <img class="elements__icon" src="images/Group1.png">
+                    </a>
+                </li>
+            </ul>
+
+        </main>
+
+        <footer class="footer">
+            <h2 class="footer__copyright">&copy;&nbsp;2020 Mesto Russia</h2>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.profile__popup-sumbit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    border-radius: 2px;
+    margin: 48px auto 0 auto;
+    width: 358px;
+    min-height: 50px;
+    text-decoration: none;
+}
+
+.profile__popup-sumbit:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+    .profile__popup-sumbit {
+        width: 238px;
+        min-height: 46px;
+        margin-top: 45px;
+    }
+}

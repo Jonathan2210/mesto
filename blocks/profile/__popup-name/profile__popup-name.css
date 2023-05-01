@@ -1,0 +1,18 @@
+.profile__popup-name {
+    width: 358px;
+    min-height: 36px;
+    margin: 54px auto 30px auto;
+    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+.profile__popup-name:last-of-type {
+    margin: 0 auto 0 auto;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .profile__popup-name {
+        width: 238px;
+        margin-top: 75px;
+    }
+}

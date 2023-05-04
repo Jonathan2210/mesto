@@ -1,5 +1,4 @@
 .popup__close {
-    border: 1px red solid;
     width: 32px;
     height: 32px;
     position: absolute;
@@ -21,6 +20,6 @@
     .popup__close {
         width: 20px;
         height: 20px;
-        left: 260px
+        left: 260px;
     }
 }

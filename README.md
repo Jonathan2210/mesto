@@ -14,4 +14,3 @@
 + Адаптивная верстка
 + JavaScript
 
-[Ссылка на проект](https://jonathan2210.github.io/mesto/)

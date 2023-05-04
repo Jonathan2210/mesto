@@ -2,7 +2,6 @@
     max-width: 358px;
     min-height: 36px;
     margin: 54px auto 30px auto;
-    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
 }
 
 @media screen and (max-width: 900px) {

@@ -1,9 +1,7 @@
 .elements__element-icon {
     width: 22px;
     height: 19px;
-    position: absolute;
-    top: 312px;
-    left: 240px;
+    margin-top: 5px;   
 }
 
 .elements__element-icon:hover {

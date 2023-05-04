@@ -1,18 +1,23 @@
-.profile__close-popup {
+.popup__close {
     width: 32px;
     height: 32px;
     position: absolute;
     display: block;
     left: 438px;
     top: -38px;
+    background-image: url(../../../images/Close\ Icon.svg);
+    background-color: black;
+    background-size: cover;
+    border: none;
 }
 
-.profile__close-popup:hover {
+.popup__close:hover {
     opacity: 0.6;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
-    .profile__close-popup {
+    .popup__close {
         width: 20px;
         height: 20px;
         top: -36px;

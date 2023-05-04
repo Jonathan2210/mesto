@@ -1,5 +1,7 @@
 .elements__element-image {
     width: 100%;
-    height: auto;
+    min-height: 282px;
     border-radius: 10px 10px 0 0;
+    display: block;
+    object-fit: cover;
 }

@@ -1,14 +1,16 @@
-.profile__popup-text {
-    margin-top: 0;
-    margin-bottom: 13px;
+.popup__input {
+    width: 358px;
+    margin-top: 0px;
+    padding-bottom: 13px;
     outline: none;
-    border:none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     background-image:none;
     background-color:transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -17,4 +19,9 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.popup__input:last-of-type {
+    margin-top: 30px;
+    margin-bottom: 0;
 }

@@ -1,4 +1,4 @@
-.profile__edit-popup {
+.popup {
     display: none;
     position: fixed;
     top: 0;
@@ -9,12 +9,8 @@
     z-index: 2;
 }
 
-.profile__edit-popup.active {
-    display: block;
-}
-
 @media screen and (max-width: 900px) {
-    .profile__edit-popup {
+    .popup {
         min-width: 320px;
     }
 }

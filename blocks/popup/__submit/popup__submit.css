@@ -1,4 +1,4 @@
-.profile__popup-sumbit {
+.popup__submit {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,16 +8,27 @@
     width: 358px;
     min-height: 50px;
     text-decoration: none;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
 }
 
-.profile__popup-sumbit:hover {
+.popup__submit:hover {
     opacity: 0.8;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
-    .profile__popup-sumbit {
+    .popup__submit {
         width: 238px;
         min-height: 46px;
         margin-top: 45px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }

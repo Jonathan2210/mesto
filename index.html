@@ -11,108 +11,104 @@
 <body>
     <div class="page">
         <header class="header">
-            <img class="header__logo" src="images/logo.svg">
+            <img class="header__logo" src="images/logo.svg" alt="Логотип Mesto">
         </header>
 
         <main class="main">
 
-            <div class="profile">
+            <section class="profile">
                 <img class="profile__avatar" src="images/Avatar.png" alt="Аватарка">
                 <div class="profile__info">
-                    <h1 class="profile__info-name">Жак-Ив Кусто</h1>
-                    <p class="profile__info-about">Исследователь океана</p>
-                    
-                    <a class="profile__open-popup"  href="#">
-                        <img class="profile__edit-button" src="images/Edit Button.svg">
-                    </a>
-                </div>    
-
-                    
-
-                <div class="profile__edit-popup">
-
-                    <div class="profile__popup-content">
-                        
-                        <a class="profile__close-popup" href="#">
-                            <img class="profile__button-close" src="images/Close Icon.svg">
-                        </a>
-
-                        <p class="profile__popup-header">Редактировать профиль</p>
-                        <form class="profile__popup-name" autocomplete="off">
-                            <input type="text" class="profile__popup-text profile__input-name">
-                        </form>
-                        <form class="profile__popup-name" autocomplete="off">
-                            <input type="text" class="profile__popup-text profile__input-info">
-                        </form>
-                        
-                        <a class="profile__popup-sumbit"  href="#">
-                            <p class="profile__sumbit-text">Сохранить</p>
-                        </a>    
-                    </div>
-
+                    <h1 class="profile__info-name" name="name">Жак-Ив Кусто</h1>
+                    <p class="profile__info-about" name="about">Исследователь океана</p>
                 </div>
-
-                <a class="profile__add-button" href="#">
-                    <img class="profile__button-cross" src="images/Add Button.svg">
-                </a>
-                
-            </div>
+                <button class="profile__edit-button" type="button"></button>
+                <button class="profile__add-button"></button>
+            </section>
 
             <ul class="elements">
                 <li class="elements__element">
                     <img class="elements__element-image" src="images/karachevsk.jpg" alt="Карачаевск">
-                    <h2 class="elements__element-title">Карачаевск</h2>
-                    <a class="elements__element-icon" href="#">
-                        <img class="elements__icon" src="images/Group1.png">
-                    </a>
-                    
+                    <div class="elements__element-content">
+                        <h2 class="elements__element-title">Карачаевск</h2>
+                        <a class="elements__element-icon" href="#">
+                            <img class="elements__icon" src="images/Group.svg">
+                        </a>
+                    </div>
                 </li>
 
                 <li class="elements__element">
                     <img class="elements__element-image" src="images/elbrus.jpg" alt="Эльбрус">
-                    <h2 class="elements__element-title">Гора Эльбрус</h2>
-                    <a class="elements__element-icon" href="#">
-                        <img class="elements__icon" src="images/Group1.png">
-                    </a>
+                    <div class="elements__element-content">
+                        <h2 class="elements__element-title">Гора Эльбрус</h2>
+                        <a class="elements__element-icon" href="#">
+                            <img class="elements__icon" src="images/Group.svg">
+                        </a>
+                    </div>
                 </li>
 
                 <li class="elements__element">
                     <img class="elements__element-image" src="images/dombai.jpg" alt="Домбай">
-                    <h2 class="elements__element-title">Домбай</h2>
-                    <a class="elements__element-icon" href="#">
-                        <img class="elements__icon" src="images/Group1.png">
-                    </a>
+                    <div class="elements__element-content">
+                        <h2 class="elements__element-title">Домбай</h2>
+                        <a class="elements__element-icon" href="#">
+                            <img class="elements__icon" src="images/Group.svg">
+                        </a>
+                    </div>
                 </li>
 
                 <li class="elements__element">
                     <img class="elements__element-image" src="images/elbrus.jpg" alt="Эльбрус">
-                    <h2 class="elements__element-title">Гора Эльбрус</h2>
-                    <a class="elements__element-icon" href="#">
-                        <img class="elements__icon" src="images/Group1.png">
-                    </a>
+                    <div class="elements__element-content">
+                        <h2 class="elements__element-title">Гора Эльбрус</h2>
+                        <a class="elements__element-icon" href="#">
+                            <img class="elements__icon" src="images/Group.svg">
+                        </a>
+                    </div>
                 </li>
 
                 <li class="elements__element">
                     <img class="elements__element-image" src="images/dombai.jpg" alt="Домбай">
-                    <h2 class="elements__element-title">Домбай</h2>
-                    <a class="elements__element-icon" href="#">
-                        <img class="elements__icon" src="images/Group1.png">
-                    </a>
+                    <div class="elements__element-content">
+                        <h2 class="elements__element-title">Домбай</h2>
+                        <a class="elements__element-icon" href="#">
+                            <img class="elements__icon" src="images/Group.svg">
+                        </a>
+                    </div>
                 </li>
 
                 <li class="elements__element">
                     <img class="elements__element-image" src="images/karachevsk.jpg" alt="Карачевск">
-                    <h2 class="elements__element-title">Карачаево-Черкесия</h2>
-                    <a class="elements__element-icon" href="#">
-                        <img class="elements__icon" src="images/Group1.png">
-                    </a>
+                    <div class="elements__element-content">
+                        <h2 class="elements__element-title">Карачаево-Черкесия</h2>
+                        <a class="elements__element-icon" href="#">
+                            <img class="elements__icon" src="images/Group.svg">
+                        </a>
+                    </div>
                 </li>
             </ul>
 
         </main>
 
+        <div class="popup" id="popup">
+
+            <div class="popup__content">
+                        
+                <button class="popup__close" type="button"></button>
+                <h3 class="popup__header">Редактировать профиль</h3>
+                <form class="popup__form" autocomplete="off" name="form">
+                    <input type="text" class="popup__input popup__input_name" name="input">
+                    <input type="text" class="popup__input popup__input_about" name="input">
+                    <button class="popup__submit" type="submit" name="submit">Сохранить</button>   
+                </form>
+
+            </div>
+        </div>    
+
+                
+
         <footer class="footer">
-            <h2 class="footer__copyright">&copy;&nbsp;2020 Mesto Russia</h2>
+            <p class="footer__copyright">&copy;&nbsp;2020 Mesto Russia</p>
         </footer>
     </div>
 
